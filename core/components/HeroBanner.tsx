@@ -43,7 +43,7 @@ export default function HeroBanner() {
         </div>
 
         {/* RIGHT IMAGE SLIDER */}
-        <div className="w-full h-[350px] overflow-hidden rounded-xl">
+        <div className="w-full h-[350px]overflow-hidden rounded-xl">
           <img
             src={images[currentImage]}
             alt="Mushrooms"

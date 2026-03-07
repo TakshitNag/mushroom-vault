@@ -6,7 +6,7 @@ if (!MONGODB_URI) {
   throw new Error("❌ MONGODB_URI not found in .env.local");
 }
 
-export const connectDB = async () => {
+export default async  function connectDB() {
   if (mongoose.connection.readyState >= 1) return;
 
   try {

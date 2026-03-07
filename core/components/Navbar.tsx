@@ -17,7 +17,7 @@ export default function Navbar() {
             href="/"
             className="text-xl font-bold text-green-700 flex items-center gap-2"
           >
-            🍄 Mushroom Store
+            🍄 Sumit Mushroom Farm
           </Link>
 
           {/* Desktop Menu */}

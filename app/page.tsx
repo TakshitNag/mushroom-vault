@@ -1,3 +1,4 @@
+import BestSellerSection from "@/core/components/BestSellerSection";
 import CategorySection from "@/core/components/CategorySelection";
 import HeroBanner from "@/core/components/HeroBanner";
 
@@ -8,6 +9,10 @@ export default function Home() {
       <HeroBanner />
 
       <CategorySection />
+      
+      <div>
+      <BestSellerSection />
+      </div>
 
     </main>
   );

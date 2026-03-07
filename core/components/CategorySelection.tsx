@@ -3,22 +3,22 @@ import Link from "next/link";
 const categories = [
   {
     name: "Button Mushrooms",
-    image: "/mushrooms/button.jpg",
+    image: "/mushroom/wild-mushrooms-agaricus-arvensis-21540698.webp",
     slug: "button",
   },
   {
     name: "Oyster Mushrooms",
-    image: "/mushrooms/oyster.jpg",
+    image: "/mushroom/oyster-mushroom-1296x728-header.webp",
     slug: "oyster",
   },
   {
     name: "Shiitake Mushrooms",
-    image: "/mushrooms/shiitake.jpg",
+    image: "/mushroom/wild-mushrooms-agaricus-arvensis-21540698.webp",
     slug: "shiitake",
   },
   {
     name: "Medicinal Mushrooms",
-    image: "/mushrooms/medicinal.jpg",
+    image: "/mushroom/istockphoto-1330220735-612x612.jpg",
     slug: "medicinal",
   },
 ];
@@ -50,7 +50,7 @@ export default function CategorySection() {
                 />
               </div>
 
-              <div className="p-4 text-center font-semibold">
+              <div className="p-3 text-center font-semibold">
                 {category.name}
               </div>
             </Link>
